@@ -161,9 +161,23 @@ footer {
     gap: 25px;
     list-style: none;
     font-size: 20px;
+    text-decoration: none;
 }
 .copyright{
     color: white;
     text-align: center;
     font-size: 12px;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    color: gray;
+
+}
+.social-icons i:hover{
+    color: white;
 }
