@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(200, 200, 200);
+    font-size: 30px;
+}
+h1{
+    margin:20px 20px;
+}
+.navbar{
+    background-color: black;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+    justify-content: space-evenly;
+    padding: 16px 0 16px 0;
+    color: white;
+    margin: 0;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color: gray;
+}
