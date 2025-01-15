@@ -229,11 +229,15 @@ label {
     text-decoration: none;
     color: #000000;
     background-color: rgb(200, 200, 200);
-    padding: 10px;
-    border-radius: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 40px;
     justify-content: center;
     position: relative;
     top: -250px;
+}
+.tickets:hover {
+    color: #953cea;
+
 }

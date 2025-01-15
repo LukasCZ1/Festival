@@ -1,9 +1,10 @@
 body{
-    background-color:rgb(200, 200, 200);
-    font-size: 30px;
+    background-color: rgb(200,200,200);
+    margin: 0;
 }
 h1{
-    margin:20px 20px;
+    font-size: 55px;
+    margin:20px 40px;
 }
 .navbar{
     background-color: black;
@@ -17,11 +18,23 @@ h1{
     color: white;
     margin: 0;
 }
-
 .nav-link a{
     text-decoration: none;
     color: white;
 }
 .nav-links a:hover{
     color: gray;
+}
+.obr{
+    display: grid;
+    padding: 20px;
+    gap: 30px;
+    position: relative;
+}
+img{
+    border-radius: 4px;
+}
+p{
+    position: absolute;
+    left: 400px;
 }
