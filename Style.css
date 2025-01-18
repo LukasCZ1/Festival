@@ -132,6 +132,7 @@ header{
 .nav-links a:hover{
     color: gray;
 }
+
 footer {
     padding: 16px 0 16px 0;
     background-color: rgb(0, 0, 0);
@@ -224,20 +225,4 @@ textarea{
 label {
     font-size: 22px;
 }
-.tickets {
-    margin: 20px;
-    text-decoration: none;
-    color: #000000;
-    background-color: rgb(200, 200, 200);
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 40px;
-    justify-content: center;
-    position: relative;
-    top: -250px;
-}
-.tickets:hover {
-    color: #953cea;
 
-}
